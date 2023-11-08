@@ -1,7 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Henny+Penny&family=Playpen+Sans:wght@300;400&family=Ribeye&display=swap');
 
-
+body {
+     overflow-x: hidden;
+     overflow-y: hidden;
+}
 :root {
      --henny : 'Henny Penny', sans-serif;
      --Ribey   : "Ribeye", sans-serif;
