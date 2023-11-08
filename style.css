@@ -1,0 +1,131 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Henny+Penny&family=Playpen+Sans:wght@300;400&family=Ribeye&display=swap');
+
+
+:root {
+     --henny : 'Henny Penny', sans-serif;
+     --Ribey   : "Ribeye", sans-serif;
+     --cherry : "Cherry Bomb One", sans-serif;
+     --playpen: "Playpen sans";
+}
+.container {
+     width: 430px;
+     height: 900px;
+     background-color:
+     #fef9f3;
+     text-align: center;
+     padding-top: 10px;
+     border-radius: 20px;
+}
+
+ .card.gameOption {
+     width: 174px;
+     height: 213px;
+     margin-bottom: 20px;
+     background-color:#E4F2E5 ;
+     border-radius: 20px;
+     transition: 0.2s;
+}
+.gameOption:hover {
+     border: 5px solid rgb(232, 225, 225);
+     background-color:  rgb(232, 225, 225);
+}
+.image {
+     width: 177px;
+     height:164px;
+     background-color: red;
+     border-radius: 50%;
+     background-color: #fef9f3;
+     margin-bottom: 20px;
+}
+h1 {
+     font-size:  20px;
+     font-family: var(--playpen);
+     margin: 10px 10px;
+}
+.namePlayer  {
+     margin: 10px 0px 40px 0px;
+}
+.namePlayer p {
+     font-size: 40px;
+     color: #f19336;
+     font-family: var(--cherry);
+     text-transform: capitalize;
+     font-weight: 300;
+}
+
+footer {
+     width: 100%;
+     height: 40px;
+     display: flex;
+     justify-content: space-around;
+     margin: 20px 0 40px 0;
+}
+
+a img {
+     width: 30px;
+     height: 30px;
+     border: 1px solid  #fef9f3;   
+
+
+}
+a:hover  img {
+     -ms-transform: scale(1.5); /* IE 9 */
+     -webkit-transform: scale(1.5); /* Safari 3-8 */
+     transform: scale(1.5);
+}
+/* card */
+.card-title {
+     font-family: var(--cherry);
+     font-size: 20px;
+     color: 
+     #4ba652 ;
+     margin: 10px;
+}
+.card-text {
+     font-family:var(--playpen);
+     font-size: 10px;
+     margin: 10px;
+}
+
+.card-body {
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto;
+     min-height: 1px;
+     padding: 1.25rem;
+     margin-top: 20px;
+ }
+
+ img.card-img-top {
+     width: 30%;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 30px;
+ }
+
+ .cirle {
+     border-radius: 50%;
+ }
+
+
+ .cirle img{
+     border-radius: 50%; 
+     width: 300px;
+     height: 300px;
+
+     -webkit-animation:spin 3s linear infinite;
+     -moz-animation:spin 3s linear infinite;
+     animation:spin 3s linear infinite;
+ }
+ @-moz-keyframes spin { 
+     100% { -moz-transform: rotate(360deg); } 
+ }
+ @-webkit-keyframes spin { 
+     100% { -webkit-transform: rotate(360deg); } 
+ }
+ @keyframes spin { 
+     100% { 
+         -webkit-transform: rotate(360deg); 
+         transform:rotate(360deg); 
+     } 
+ }
