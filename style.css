@@ -13,7 +13,7 @@ body {
 }
 .container {
      width: 430px;
-     height: 900px;
+     height: 844px;
      background-color:
      #fef9f3;
      text-align: center;
@@ -131,4 +131,11 @@ a:hover  img {
          -webkit-transform: rotate(360deg); 
          transform:rotate(360deg); 
      } 
+ }
+
+ #myDiv {
+     display: none;
+     text-align: center;
+     transition: 0.4ms;
+     
  }
