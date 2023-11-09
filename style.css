@@ -2,8 +2,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Henny+Penny&family=Playpen+Sans:wght@300;400&family=Ribeye&display=swap');
 
 body {
-     overflow-x: hidden;
-     overflow-y: hidden;
+     width: 100%;
+     height: 100%;
 }
 a {
      text-decoration: none;
