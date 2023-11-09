@@ -3,7 +3,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>BaoBao Game</title>
+     <title>Greeting Page</title>
 
      <!-- Boostrap -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -35,61 +35,44 @@
                <img src="images/animals.png" alt="" srcset="">
           </div>
      </div>
-     <div class="container" style="display:none;" id="myDiv">
-          <div class="row">
+     <div class="container"  style="display:none;" id="myDiv">
+          <div class="row ">
                <div class="col align-self-center">
 
                     <img class="image" src="images/fox.png" alt="#">
                </div>
           </div>
           <div class="greetingText">
-               <h1 >Good Morning,</h1>
+               <h1 >Hello,</h1>
           </div>
           <div class="namePlayer">
-               <p> Bao bao! </p>     
+               <p> -- </p>     
           </div>
-          <div class="cards d-flex flex-wrap justify-content-around ">
-               <div class="card gameOption"  style="background-color:#E4F2E5 ";>
-                    <img class="card-img-top" src="images/theanimal.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Animaux</h5>
-                      <p class="card-text">Learning Animaux</p>
-                    </div>
+          <form action="">
+               <div class="row">
+                    <label class=" col align-self-center card-title" for="nickname" >What's Your Name</label>
                </div>
-               <div class="card gameOption" style="background-color: #F8D8B1;">
-                    <img class="card-img-top" src="images/abc.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Alphabet</h5>
-                      <p class="card-text">Learning Abc</p>
-                    </div>
+               <input type="text" name="nickname" id="nickname" placeholder="..">
+          </form>
+          <div class="arvata">
+               <div class="row">
+                    <div class="col card-title"> Choise Your Arvatas </div>
                </div>
-               <div class="card gameOption" style="background-color: #f7cff5;">
-                    <img class="card-img-top" src="images/puzzle.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Puzzle</h5>
-                      <p class="card-text">Play puzzle</p>
-                    </div>
+               <div class="listAvata ">
+                    <img src="images/bear.png" alt="bear">
+                    <img src="images/panda.png" alt="bear">
+                    <img src="images/fox.png" alt="bear">
+                    <img src="images/rapide.png" alt="bear">
+                    <img src="images/bear.png" alt="bear">
+                    <img src="images/panda.png" alt="bear">
+                    <img src="images/fox.png" alt="bear">
+                    <img src="images/rapide.png" alt="bear">
+              
                </div>
-               <div class="card gameOption" style="background-color: #EBE7FC;">
-                    <img class="card-img-top" src="images/drawing.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Drawig</h5>
-                      <p class="card-text">Learning Color</p>
-                    </div>
-               </div>
-
           </div>
-          <div class="row">
-               <footer >
-                    <a class="align-content-sm-start" href="#">
-                         <img src="images/setting.png" alt=""></a>
-                    <a href="#">
-                         <img src="images/home.png" alt="">
-                    </a>
-                    <a href="#"><img src="images/user.png" alt=""></a>
-               </footer>
-          </div>
+          <button><a href="greatingPage.html">Next</a></button>
      </div>
+  
      <script src="index.js"></script>
 </body>
 </html>

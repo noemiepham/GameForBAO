@@ -5,6 +5,10 @@ body {
      overflow-x: hidden;
      overflow-y: hidden;
 }
+a {
+     text-decoration: none;
+     color: black;
+}
 :root {
      --henny : 'Henny Penny', sans-serif;
      --Ribey   : "Ribeye", sans-serif;
@@ -19,6 +23,8 @@ body {
      text-align: center;
      padding-top: 10px;
      border-radius: 20px;
+
+     position: relative;
 }
 
  .card.gameOption {
@@ -65,12 +71,10 @@ footer {
      margin: 20px 0 40px 0;
 }
 
-a img {
+footer a img {
      width: 30px;
      height: 30px;
      border: 1px solid  #fef9f3;   
-
-
 }
 footer a img:hover  {
      -ms-transform: scale(1.5); /* IE 9 */
@@ -80,7 +84,9 @@ footer a img:hover  {
 /* card */
 .card-title {
      font-family: var(--cherry);
-     font-size: 20px;
+     font-size: 30px;
+
+
      color: 
      #4ba652 ;
      margin: 10px;
@@ -138,4 +144,49 @@ footer a img:hover  {
      text-align: center;
      transition: 0.4ms;
 
+ }
+
+ /* form */
+ input {
+     width: 300px;
+     height: 50px;
+     border-radius: 10px;
+     text-align: center;
+     margin-top: 20px;
+     color: #f4bbc2;
+     font-family: var(--cherry);
+     font-size: 30px;
+ }
+.listAvata {
+     display: flex;
+     flex-wrap:wrap ;
+}
+ .listAvata img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     margin-top: 10px;
+ }
+ .listAvata img:hover {
+     border: 5px solid rgb(232, 225, 225);
+     background-color:  rgb(232, 225, 225);
+ }
+
+ button {
+     width: 300px;
+     height: 50px;
+     border-radius: 10px;
+     text-align: center;
+     background-color: #f19336;
+     font-family: var(--Ribey);
+     font-size: 30px;
+
+     position: absolute;
+     bottom: 20px;
+
+     margin-left: -150px;
+ }
+
+ button:hover {
+     background-color:   #4ba652 ;
  }
