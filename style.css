@@ -9,6 +9,10 @@ a {
      text-decoration: none;
      color: black;
 }
+a:hover {
+     text-decoration: none;
+}
+
 :root {
      --henny : 'Henny Penny', sans-serif;
      --Ribey   : "Ribeye", sans-serif;
@@ -29,31 +33,28 @@ a {
 
  .card.gameOption {
      width: 174px;
-     height: 213px;
+     height: 230px;
      margin-bottom: 20px;
   
      border-radius: 20px;
      transition: 0.2s;
 }
 .card:hover, .gameOption:hover {
-     border: 5px solid rgb(232, 225, 225);
+     border: 10px solid rgb(232, 225, 225);
      background-color:  rgb(232, 225, 225);
 }
 .image {
-     width: 177px;
-     height:164px;
-     background-color: red;
+     width: 100px;
+     height: 100px;
      border-radius: 50%;
-     background-color: #fef9f3;
-     margin-bottom: 20px;
+     margin-bottom: 10px;
 }
 h1 {
      font-size:  20px;
      font-family: var(--playpen);
-     margin: 10px 10px;
 }
 .namePlayer  {
-     margin: 10px 0px 40px 0px;
+    margin-bottom: 20px;
 }
 .namePlayer p {
      font-size: 40px;
@@ -65,16 +66,23 @@ h1 {
 
 footer {
      width: 100%;
-     height: 40px;
+     height: 10%;
+
      display: flex;
+     align-items: center;
      justify-content: space-around;
-     margin: 20px 0 40px 0;
+     
+     background-color: #f19336;
+     border-radius: 0% 0% 20px 20px;
+
+     position: absolute;
+     bottom: 0;
+     left: 0;
 }
 
 footer a img {
      width: 30px;
      height: 30px;
-     border: 1px solid  #fef9f3;   
 }
 footer a img:hover  {
      -ms-transform: scale(1.5); /* IE 9 */
@@ -82,31 +90,32 @@ footer a img:hover  {
      transform: scale(1.5);
 }
 /* card */
+.cards {
+     margin-top: 40px;
+}
 .card-title {
      font-family: var(--cherry);
      font-size: 30px;
-
-
      color: 
      #4ba652 ;
-     margin: 10px;
 }
 .card-text {
      font-family:var(--playpen);
      font-size: 10px;
-     margin: 10px;
+
 }
 
 .card-body {
      -ms-flex: 1 1 auto;
      flex: 1 1 auto;
      min-height: 1px;
-     padding: 1.25rem;
      margin-top: 20px;
+
+     padding: 10px;
  }
 
  img.card-img-top {
-     width: 30%;
+     width: 60px;
      margin-right: auto;
      margin-left: auto;
      margin-top: 30px;
@@ -189,4 +198,48 @@ footer a img:hover  {
 
  button:hover {
      background-color:   #4ba652 ;
+ }
+
+ /* Game Animal */
+
+ 
+ /* Game Animal */
+
+ .card-body.rounded {
+     width: 380px;
+     height: 400px;
+     margin: auto;
+     padding: 10px;
+ }
+ .answer {
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+
+ .answer .btn {
+     width: 170px;
+     height: 70px;
+     background-color: burlywood;
+
+     margin: 14px;
+     border-radius: 12px;
+
+     display: flex;
+     align-items: center;
+     /* text-align: center; */
+     justify-content: center;
+
+ }
+
+ .answer .btn:hover {
+     border: 10px solid rgb(232, 225, 225);
+     background-color:  rgb(232, 225, 225);
+
+ }
+
+ .answer .btn span {
+     text-align: center;
+     font-size: 1.5rem;
+     font-family: var(--playpen);
  }

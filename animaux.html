@@ -17,45 +17,38 @@
      <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Ribeye&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 </head>
-<body onload="myFunction()">
-     <div class="container " id="loader">
-          <div class="row mt-5">
-               <div class="col align-self-center">
-
-                    <img class="image" src="images/fox.png" alt="#">
+<body>
+     <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+               <div class="navbar-brand" href="#">
+                    <img src="images/fox.png" width="30" height="30"  alt="fox">
+               </div>   
+               <div class="namePlayer m-0">
+                    <p > Bao bao! </p>     
                </div>
-          </div>
-          <div class="greetingText">
-               <h1 >Welcome,</h1>
-          </div>
-          <div class="namePlayer">
-               <p> BaoBao Game! </p>     
-          </div>
-          <div class="cirle ">
-               <img src="images/animals.png" alt="" srcset="">
-          </div>
-     </div>
-     <div class="container" style="display:none;" id="myDiv">
-          <div class="row">
-               <div class="col align-self-center">
-
-                    <img class="image" src="images/fox.png" alt="#">
+               <div >
+                    <img src="images/home.png" dth="30" height="30" alt="home">
                </div>
-          </div>
-          <div class="greetingText">
-               <h1 >What's his name?</h1>
-          </div>
-          <div class="namePlayer">
-               <p> Bao bao! </p>     
-          </div>
-     
+           </nav>
+           <div class="gameAnimal">
+                <div class="mt-5">
+                    <div class="col card-title"> What animal is this ?</div>
+               </div>
+               <div class="card-body  rounded" style="background-color: #F8D8B1;">
+                    <img class="card-img-top" style="width: 18rem;" src="images/fox.png" alt="Card image cap">
+               </div>
+               <div class="answer">
+                    <div class="btn" style="background-color: #4CA652;"><span>Lion</span></div>
+                    <div class="btn" style="background-color: #FFD428;"><span>Fox</span></div>
+                    <div class="btn" style="background-color: #f4bbc2 ;"><span>Elephanes</span></div>
+                    <div class="btn" style="background-color: #8d78e2;"><span>Dog</span></div>
+               </div>
 
-          </div>
-          <div class="row">
-               <button >
-                    <a href="#">Next</a>
-               </button>
-          </div>
+           </div>
+
+          <button >
+               <a href="#">Next</a>
+           </button>
      </div>
      <script src="index.js"></script>
 </body>
